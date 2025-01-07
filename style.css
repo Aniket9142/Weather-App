@@ -100,10 +100,14 @@ body {
 
 
 @media only screen and (max-width: 600px) {
-    body {
-      /* background-color: lightblue; */
-    }
-    .card{
-        width: 100%;
-    }
+  .card {
+    width: 100%;
+    margin-top: 10%;
+    padding: 40px 10px;    
+  }
+  .search input{
+    margin-right: 6px;
+  }
+  .details{
+    padding: 0 3px;
   }
